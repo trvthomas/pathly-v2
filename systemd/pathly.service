@@ -1,0 +1,17 @@
+[Unit]
+Description=Pathly E-Ink Dashboard by trvthomas
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=YOUR_PI_USERNAME
+WorkingDirectory=/home/YOUR_PI_USERNAME/pathly
+ExecStart=/usr/bin/python3 /home/YOUR_PI_USERNAME/pathly/main.py
+StandardOutput=append:/home/YOUR_PI_USERNAME/pathly/log.txt
+StandardError=append:/home/YOUR_PI_USERNAME/pathly/log.txt
+Restart=always
+RestartSec=600
+
+[Install]
+WantedBy=multi-user.target

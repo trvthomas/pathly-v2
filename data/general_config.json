@@ -1,0 +1,116 @@
+{
+    "refresh": {
+        "Mon": {
+            "hourly": true,
+            "morning": "11:00",
+            "night": "21:30"
+        },
+        "Tue": {
+            "hourly": false,
+            "morning": "12:00",
+            "night": "21:30"
+        },
+        "Wed": {
+            "hourly": true,
+            "morning": "11:00",
+            "night": "21:30"
+        },
+        "Thu": {
+            "hourly": true,
+            "morning": "11:00",
+            "night": "21:30"
+        },
+        "Fri": {
+            "hourly": false,
+            "morning": "11:00",
+            "night": "21:45"
+        },
+        "Sat": {
+            "hourly": true,
+            "morning": "11:00",
+            "night": "22:00"
+        },
+        "Sun": {
+            "hourly": true,
+            "morning": "11:00",
+            "night": "21:30"
+        }
+    },
+    "weather": {
+        "Mon": {
+            "coordinates": [
+                33.9810,
+                -117.3306
+            ]
+        },
+        "Tue": {
+            "coordinates": [
+                33.9810,
+                -117.3306
+            ]
+        },
+        "Wed": {
+            "coordinates": [
+                33.9810,
+                -117.3306
+            ]
+        },
+        "Thu": {
+            "coordinates": [
+                33.9810,
+                -117.3306
+            ]
+        },
+        "Fri": {
+            "coordinates": [
+                33.9810,
+                -117.3306
+            ]
+        },
+        "Sat": {
+            "coordinates": [
+                33.9810,
+                -117.3306
+            ]
+        },
+        "Sun": {
+            "coordinates": [
+                33.9810,
+                -117.3306
+            ]
+        }
+    },
+    "traffic": {
+        "Mon": {
+            "type": "bike"
+        },
+        "Tue": {
+            "type": "bike"
+        },
+        "Wed": {
+            "type": "bike"
+        },
+        "Thu": {
+            "type": "bike"
+        },
+        "Fri": {
+            "type": "bike"
+        },
+        "Sat": false,
+        "Sun": false
+    },
+    "school_semesters": {
+        "1": {
+            "start_date": "01/04",
+            "end_date": "03/19"
+        },
+        "2": {
+            "start_date": "03/29",
+            "end_date": "06/11"
+        },
+        "3": {
+            "start_date": "09/24",
+            "end_date": "12/11"
+        }
+    }
+}
